@@ -28,5 +28,5 @@ Host is up (0.0000030s latency).
 All 1000 scanned ports on 192.168.84.214 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ 
 # Nmap done at Mon Jun 23 20:52:15 2025 -- 256 IP addresses (4 hosts up) scanned in 19.04 seconds
