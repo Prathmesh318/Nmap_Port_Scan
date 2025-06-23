@@ -1,0 +1,32 @@
+# Nmap 7.95 scan initiated Mon Jun 23 20:51:56 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -oN scan.txt 192.168.84.0/24
+Nmap scan report for 192.168.84.67
+Host is up (0.00045s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE SERVICE       VERSION
+21/tcp  open  ftp           Microsoft ftpd
+80/tcp  open  http          Microsoft IIS httpd 10.0
+135/tcp open  msrpc         Microsoft Windows RPC
+445/tcp open  microsoft-ds?
+MAC Address: DC:21:5C:3E:C5:E7 (Intel Corporate)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.84.183
+Host is up (0.0055s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+MAC Address: CE:0C:22:74:0F:E1 (Unknown)
+
+Nmap scan report for 192.168.84.219
+Host is up (0.012s latency).
+All 1000 scanned ports on 192.168.84.219 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 10:B2:32:95:D6:7C (Qingdao Intelligent&Precise Electronics)
+
+Nmap scan report for 192.168.84.214
+Host is up (0.0000030s latency).
+All 1000 scanned ports on 192.168.84.214 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 23 20:52:15 2025 -- 256 IP addresses (4 hosts up) scanned in 19.04 seconds
